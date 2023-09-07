@@ -1,1 +1,0 @@
-print('ola mindo r')
