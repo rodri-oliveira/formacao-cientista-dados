@@ -27,20 +27,20 @@ rownames(VADeaths)
 Matrizes
 ```{r}
 #só coluna 1
-VADeaths[,1]
+VADeaths[, 1]
 #so linha 1
 VADeaths[1,]
 #linhas 1 até 3
 VADeaths[1:3,]
-VADeaths[c(1,3,5),]
+VADeaths[c(1,3,5),]#apenas as 1,3,5
 ```
 Data Frame
 ```{r}
 longley
 #funcina como matriz
-longley[,1:3]
+longley[,1:3]#todas linhas, colunas 1 até 3
 #acessar coluna com $
-longley$Unemployed
+longley$Unemployed# coluna expecifica
 #ou nome
 longley['Unemployed']
 ```

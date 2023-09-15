@@ -3,7 +3,7 @@ Formação Cientista de Dados - Prof. Fernando Amaral
 Importando Dados
 ---
 ```{r}
-#install.packages("openxlsx")
+install.packages("openxlsx")
 library(openxlsx)
 ```
 Texto
@@ -16,7 +16,7 @@ x
 ```
 Excel
 ```{r}
-dados = read.xlsx("Credit.xlsx",sheet= 1)
+dados = read.xlsx(file.choose(),sheet= 1)
 dados
 ```
 
